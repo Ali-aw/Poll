@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930104170841",
+    "project_id": "demproj-f22f2",
+    "storage_bucket": "demproj-f22f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930104170841:android:af9261eed898c283aed448",
+        "android_client_info": {
+          "package_name": "com.example.demproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930104170841-mi40333q1uu331n6cj45ng2rmkq1h7c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk2qLLLEaXKv9fgjLklwyU2iyBxjZwvMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930104170841-mi40333q1uu331n6cj45ng2rmkq1h7c0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

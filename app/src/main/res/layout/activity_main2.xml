@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:layout_width="231dp"
+        android:layout_height="58dp"
+        android:hint="Name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="231dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="enter your Email"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="232dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="227dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="387dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="227dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="type"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="571dp"
+        android:onClick="createAccount"/>
+
+</LinearLayout>
+
+
