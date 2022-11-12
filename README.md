@@ -3,7 +3,7 @@
 
 
 # The minimum functionalities of this app are listed below:<br /> 
-&nbsp;&nbsp;⚫ Users should be able to  o Access currently open polls or votes o Vote one time by choosing one or several elements presented in a list Access voting history <br/>
+&nbsp;&nbsp;⚫ Users should be able to  o Access currently open polls or votes o Vote one time by choosing one or several elements presented in a list&nbsp;&nbsp; Access voting history <br/>
 &nbsp;&nbsp;⚫ Administrators of the app should be able to  o Create polls o Access voting results<br/>
 &nbsp;&nbsp;⚫ Save the data about each poll and the voting in a simple distant database (mysql, firebase, or any other solution for distant DB …) <br/>
 
